@@ -8,6 +8,6 @@ jobs:
     steps:
       - checkout
       - run : |
-             timeout: 1200
+             no_output_timeout: 20m
              chmod +x cocoa.sh
              ./cocoa.sh
